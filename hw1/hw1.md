@@ -23,7 +23,7 @@ type int_tree = Lf
 
 * (1) Напишите функцию `gen_tree: int -> int_tree`, которая получает целое число n и возвращает корень дерева следующего вида (пример для `gen_tree 3`):
 
-![Дерево-результат вызова gen_tree 3](tree.png)
+![Дерево-результат вызова gen_tree 3](https://github.com/AnnaUdovichenko/proglang-problems/blob/master/hw1/pic/tree.png)
 
 `gen_tree 0` должно возвращать Lf.
 
