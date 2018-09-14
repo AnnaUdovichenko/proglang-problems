@@ -91,7 +91,6 @@ type letlang_expr =
 ```ocaml
 val is_positive : int list -> bool = <fun>
 val is_sorted : 'a list -> bool = <fun>
-type int_tree = Lf | Br of int * int_tree * int_tree
 val count_branches : int_tree -> int = <fun>
 val depth : int_tree -> int = <fun>
 val gen_tree : int -> int_tree = <fun>
