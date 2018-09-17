@@ -36,8 +36,8 @@ assert(preorder(Br(1, Lf, Lf))  = [1]);;
 assert(search_book "hello" [] = []);;
 
 (* simplify: bool_expr - > bool_expr *)
-assert(simplyfy(Const(True)) = Const(True));;
-assert(simplyfy(And(Const(True), Const(False))) = Const(False));;
+assert(simplify(Const(True)) = Const(True));;
+assert(simplify(And(Const(True), Const(False))) = Const(False));;
 
 (* lookup: string -> (string * letlang_expr) list -> letlang_expr option *)
 

@@ -97,7 +97,7 @@ val gen_tree : int -> int_tree = <fun>
 val inorder : int_tree -> int list = <fun>
 val preorder : int_tree -> int list = <fun>
 val search_book : string -> book_type list -> book_type list = <fun>
-val simplyfy : bool_expr -> bool_expr = <fun>
+val simplify : bool_expr -> bool_expr = <fun>
 val lookup : 'a -> ('a * 'b) list -> 'b option = <fun>
 val eval : letlang_expr -> letlang_expr = <fun>
 ```
