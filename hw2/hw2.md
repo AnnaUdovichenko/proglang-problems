@@ -66,7 +66,7 @@ type expr =
   | Let of string * expr * expr (* var name, expression to bind, let body *)
   | Fun of string * typ * expr (* parameter name, parameter type, function body *)
   | Call of string * expr (* function name, argument expression *)
-  | If of expr * expr * expr (* Text expression, then branch, else branch *);;
+  | If of expr * expr * expr (* Test expression, then branch, else branch *);;
 ```
 
 В результате в вашем файле должны быть следующие связывания:
