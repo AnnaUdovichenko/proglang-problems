@@ -7,7 +7,7 @@
 
 Установщик для Windows: https://fdopen.github.io/opam-repository-mingw/installation/
 
-Интерактивные скетчи: [sketch.sh]
+Интерактивные скетчи: https://sketch.sh/
 Когда создаёте скетчи, обратите внимание, что по умолчанию стоит другой синтаксис (от ReasonML). Переключайте сразу RE на ML.
 
 Компиляция и запуск кода на OCaml.
