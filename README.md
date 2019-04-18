@@ -28,3 +28,7 @@ open Code;;
  Подробнее про компиляцию, запуск и модули можно почитать здесь:
 
 https://ocaml.org/learn/tutorials/compiling_ocaml_projects.html
+
+## Программируем на Racket
+
+IDE для языка Racket: https://download.racket-lang.org/
