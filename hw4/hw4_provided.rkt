@@ -10,7 +10,7 @@
 (struct anil() #:transparent)
 (struct asub (e1 e2) #:transparent)
 (struct aless (e1 e2) #:transparent)
-(struct afun (id param body) #:transparent)
+(struct afun (param body) #:transparent)
 (struct aclosure (fun env) #:transparent)
 (struct acall (e1 e2) #:transparent)
 (struct alet (id e1 e2) #:transparent)
