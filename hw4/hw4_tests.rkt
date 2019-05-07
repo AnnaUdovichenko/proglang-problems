@@ -7,11 +7,11 @@
 ; Helper code
 
 (define foo-code
-  (alet "foo" (afun "f" "x" (asub (avar "x") (aint 42)))
+  (alet "foo" (afun "x" (asub (avar "x") (aint 42)))
         (acall (avar "foo") (aint 43))))
 
 (define if-code
-  (alet "eq42" (afun #f "x" (aif (aless (avar "x") (aint 42))
+  (alet "eq42" (afun "x" (aif (aless (avar "x") (aint 42))
                                 (abool #f)
                                 (aif (aless (aint 42) (avar "x")) (abool #f) (abool #t)))) (apair (acall (avar "eq42") (aint 42))(acall (avar "eq42") (aint 43)))))
 
